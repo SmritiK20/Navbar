@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "string"
+    },
+    "department": {
+      "type": "enumeration",
+      "enum": [
+        "Mobile Development",
+        "WEb Development"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "ON HOLD",
+        "IN PROGESS",
+        "TESTING",
+        "COMPLETED"
+      ]
+    }
+  }
+}
